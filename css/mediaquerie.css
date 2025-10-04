@@ -38,6 +38,17 @@
         top: 8rem;        
     }
 
+    /* Seção Criador */
+    .criador-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .criador-imagem img{
+        width: 200px;
+        height: 200px;
+    }
+
     
 
 
