@@ -16,17 +16,20 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: auto;
     background-color: transparent;
     z-index: 10;
 }
 
-.nav-container ul{
+.nav-container{
     display: flex;
-    justify-content: center;
-    align-items: center;    
-    padding: 10px;  
-    margin: 0;  
+    justify-content: flex-end;       
+    padding: 10px;     
+}
+
+.nav-container ul{
+    display: flex;    
+    margin: 0;    
 }
 
 .nav-container ul li{
