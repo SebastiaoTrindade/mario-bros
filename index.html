@@ -7,8 +7,10 @@
     <title>Mario Bros</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaquerie.css">
-    <link href="https://fonts.cdnfonts.com/css/nintend-3" rel="stylesheet">   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">             
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+          
                 
 </head>
 <body>
@@ -31,18 +33,29 @@
 
     <!--Seção Criador -->
     <section class="criador">
-        <div class="criador-container">
-            <h2>Shigeru Miyamoto</h2>
-            <p class="intro">Shigeru Miyamoto é um renomado designer de jogos japonês, mais conhecido por ser o criador de alguns dos jogos mais icônicos da Nintendo, incluindo a série Mario Bros. Nascido em 16 de novembro de 1952, Miyamoto se destacou como um dos pilares da indústria de jogos eletrônicos e influenciou gerações de jogadores com sua visão criativa e inovadora.</p>
-        </div>
+        <div class="overlay"></div>
 
-        <div class="criador-info">
-            <div class="criador-imagem">
-                <img src="img/sobre.jpg" alt="">
+        <div class="criador-content">
+            <div class="criador-texto">
+                <span class="tag">O Criador</span>
+
+                <h2>Shigeru Miyamoto</h2>
+
+                <p class="frase-impacto">
+                    O homem que transformou pixels em emoções e criou um dos maiores ícones da história dos games.
+                </p>
+
+                <p class="descricao">
+                    Diretamente do Japão para o mundo, Miyamoto não criou apenas jogos — ele criou memórias.
+                    Com sua visão inovadora, nasceu o universo de Mario, uma franquia que atravessa gerações
+                    e continua viva no coração de milhões de jogadores.
+                </p>
+
+                <a href="#" class="btn-criador">Explorar História</a>
             </div>
-            <div class="criador-bio">
-                <h3>Biografia</h3>
-                <p>Miyamoto começou sua carreira na Nintendo em 1977 como estagiário e rapidamente ascendeu para posições de liderança, desenvolvendo títulos de grande sucesso. Ele é amplamente reconhecido como o criador da franquia <strong>Super Mario</strong>, além de outras obras-primas como <strong>The Legend of Zelda</strong> e <strong>Donkey Kong</strong>.</p>
+
+            <div class="criador-imagem">
+                <img src="img/sobre.jpg" alt="Shigeru Miyamoto">
             </div>
         </div>
     </section>
@@ -57,7 +70,7 @@
                     <div class="card">
                         <img src="img/Mario.png" alt="" class="card-img">
                         <div class="card-text">
-                            <h3 class="card-title">Mário Bros</h3>
+                            <h3 class="card-title">Mário</h3>
                             <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo praesentium quis, tenetur quia consequuntur veritatis nostrum laudantium inventore adipisci maxime?</p>
                             <a href="" class="card-button">Saiba Mais</a>
                         </div>
@@ -111,7 +124,7 @@
                     <div class="card">
                         <img src="img/Paragoomba.png" alt="" class="card-img">
                         <div class="card-text">
-                            <h3 class="card-title">Paragoomba/h3>
+                            <h3 class="card-title">Paragoomba</h3>
                             <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo praesentium quis, tenetur quia consequuntur veritatis nostrum laudantium inventore adipisci maxime?</p>
                             <a href="" class="card-button">Saiba Mais</a>
                         </div>
@@ -142,6 +155,44 @@
 
     <!--Footer-->
     <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Marca -->
+            <div class="footer-brand">
+            <h2 class="logo">Super Mario Bros</h2>
+            <p>Um universo lendário que marcou gerações 🎮</p>
+            </div>
+
+            <!-- Navegação -->
+            <div class="footer-links">
+            <h3>Navegação</h3>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Personagens</a></li>
+                <li><a href="#">Criador</a></li>
+            </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+            <h3>Redes</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- Moeda animada -->
+        <div class="coin"></div>
+
+        <!-- Parte inferior -->
+        <div class="footer-bottom">
+            <p>© 2026 - Projeto inspirado no universo Mario Bros</p>
+        </div>
 
     </footer>
 
